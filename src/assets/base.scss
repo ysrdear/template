@@ -72,6 +72,12 @@ li {
   height: 1px;
 }
 
+.el-popper {
+  &:focus {
+    outline: none;
+  }
+}
+
 .el-button {
   &:focus {
     background: #fff;
